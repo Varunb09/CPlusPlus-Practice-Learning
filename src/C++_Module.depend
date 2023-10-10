@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1519214329 source:c:\users\varun bhatnagar\desktop\c++\c++_module\constructor_testing.cpp
+	<iostream>
+	<string.h>
+	<malloc.h>
+
+1519215078 source:c:\users\varun bhatnagar\desktop\c++\c++_module\destructor.cpp
+	<iostream>
+
+1519290262 source:c:\users\varun bhatnagar\desktop\c++\c++_module\dynamic_memory_allocation.cpp
+	<iostream>
+
+1519291356 source:c:\users\varun bhatnagar\desktop\c++\c++_module\dma2.cpp
+	<iostream>
+
+1519292033 source:c:\users\varun bhatnagar\desktop\c++\c++_module\dma3.cpp
+	<iostream>
+
+1519294225 source:c:\users\varun bhatnagar\desktop\c++\c++_module\dma5.cpp
+	<iostream>
+	<stdlib.h>
+
+1519299625 source:c:\users\varun bhatnagar\desktop\c++\c++_module\string_deep_coping.cpp
+	<iostream>
+	<string.h>
+
+1519375003 source:c:\users\varun bhatnagar\desktop\c++\c++_module\concadination_this.cpp.cpp
+	<iostream>
+
+1519376700 source:c:\users\varun bhatnagar\desktop\c++\c++_module\const_datatmembers.cpp
+	<iostream>
+
+1519377837 source:c:\users\varun bhatnagar\desktop\c++\c++_module\constant_member_function.cpp
+	<iostream>
+
+1519380019 source:c:\users\varun bhatnagar\desktop\c++\c++_module\static_member_function.cpp
+	<iostream>
+
+1519379719 source:c:\users\varun bhatnagar\desktop\c++\c++_module\static_variable.cpp
+	<iostream>
+
+1519381338 source:c:\users\varun bhatnagar\desktop\c++\c++_module\static.cpp
+	<iostream>
+
+1519618994 source:c:\users\varun bhatnagar\desktop\c++\c++_module\friend2_keyword.cpp
+	<iostream>
+
+1519620820 source:c:\users\varun bhatnagar\desktop\c++\c++_module\friend3_class_keyword.cpp
+	<iostream>
+
+1519622668 source:c:\users\varun bhatnagar\desktop\c++\c++_module\friend4_alu.cpp
+	<math.h>
+	<iostream>
+
+1519625715 source:c:\users\varun bhatnagar\desktop\c++\c++_module\operator_overloading.cpp
+	<iostream>
+
+1519626417 source:c:\users\varun bhatnagar\desktop\c++\c++_module\operator_overloading_friend.cpp
+	<iostream>
+
+1519629097 source:c:\users\varun bhatnagar\desktop\c++\c++_module\overloading_binary_opretor.cpp
+	<iostream>
+
+1519707713 source:c:\users\varun bhatnagar\desktop\c++\c++_module\overload_bitwise_or_operator_friend.cpp
+	<iostream>
+
+1519708217 source:c:\users\varun bhatnagar\desktop\c++\c++_module\overload_complex_number_operator.cpp
+	<iostream>
+
+1519710866 source:c:\users\varun bhatnagar\desktop\c++\c++_module\string.cpp
+	<iostream>
+	<cstring>
+
+1519711472 source:c:\users\varun bhatnagar\desktop\c++\c++_module\string_copy.cpp
+	<iostream>
+	<cstring>
+
+1519711618 source:c:\users\varun bhatnagar\desktop\c++\c++_module\string_comparison.cpp
+	<iostream>
+	<cstring>
+
+1519790022 source:c:\users\varun bhatnagar\desktop\c++\c++_module\string_overload.cpp
+	<iostream>
+	<cstring>
+
+1519716699 source:c:\users\varun bhatnagar\desktop\c++\c++_module\inlinw_string.cpp
+	<iostream>
+
+1519795924 source:c:\users\varun bhatnagar\desktop\c++\c++_module\inheritance_friend.cpp
+	<iostream>
+
+1519799594 source:c:\users\varun bhatnagar\desktop\c++\c++_module\student_inheritance2.cpp
+	<iostream>
+	<cstring>
+
+1519801874 source:c:\users\varun bhatnagar\desktop\c++\c++_module\fruit_inheritance.cpp
+	<iostream>
+	<cstring>
+
+1519878517 source:c:\users\varun bhatnagar\desktop\c++\c++_module\hierarchical_inheritance.cpp
+	<iostream>
+	<cstring>
+
+1519880207 source:c:\users\varun bhatnagar\desktop\c++\c++_module\multiple_inheritance.cpp
+	<iostream>
+	<cstring>
+
+1519881507 source:c:\users\varun bhatnagar\desktop\c++\c++_module\multiple_inheritance2.cpp
+	<iostream>
+	<cstring>
+
+1519884240 source:c:\users\varun bhatnagar\desktop\c++\c++_module\multiple_inheritance_flow.cpp
+	<iostream>
+	<cstring>
+
+1519889411 source:c:\users\varun bhatnagar\desktop\c++\c++_module\hybrid_inheritance.cpp
+	<iostream>
+	<cstring>
+
+1519963203 source:c:\users\varun bhatnagar\desktop\c++\c++_module\polymorphism.cpp
+	<iostream>
+
+1519964501 source:c:\users\varun bhatnagar\desktop\c++\c++_module\upcasting.cpp
+	<iostream>
+
+1520226591 source:c:\users\varun bhatnagar\desktop\c++\c++_module\piggybank.cpp
+	<iostream>
+	<string.h>
+
+1520228661 source:c:\users\varun bhatnagar\desktop\c++\c++_module\new_overloading.cpp
+	<iostream>
+	<stdlib.h>
+
+1520312382 source:c:\users\varun bhatnagar\desktop\c++\c++_module\templates_ternery_operator.cpp
+	<iostream>
+
+1520312954 source:c:\users\varun bhatnagar\desktop\c++\c++_module\calculator.cpp
+	<iostream>
+	<cmath>
+
+1520319185 source:c:\users\varun bhatnagar\desktop\c++\c++_module\stl_sequential_contationer_vector.cpp
+	<iostream>
+	<vector>
+
+1520319318 source:c:\users\varun bhatnagar\desktop\c++\c++_module\vector.cpp
+	<iostream>
+	<vector>
+
