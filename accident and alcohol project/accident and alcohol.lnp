@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "alcohol and viveration.o" "gsm for alcohol and accident.o" "lcd command display.o" "gps reciever.o" --strict --scatter "accident and alcohol.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\accident and alcohol.map" -o "accident and alcohol.axf"

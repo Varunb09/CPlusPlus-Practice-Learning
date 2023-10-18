@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'accident and alcohol.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"alcohol and viveration.o"'
+### List of Objects: adding '"gsm for alcohol and accident.o"'
+### List of Objects: adding '"lcd command display.o"'
+### List of Objects: adding '"gps reciever.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "alcohol and viveration.o" "gsm for alcohol and accident.o" "lcd command display.o" "gps reciever.o" --strict --scatter "accident and alcohol.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\accident and alcohol.map" -o "accident and alcohol.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'accident and alcohol.axf'
+### ADS-LD Command File: 'accident and alcohol.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'accident and alcohol.lnp', Handle=0x00000664
+### Writing '.lnp' file
+### ADS-LD Command file 'accident and alcohol.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
