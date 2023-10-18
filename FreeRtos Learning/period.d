@@ -1,0 +1,13 @@
+period.o: period.c
+period.o: C:\Keil\ARM\INC\Philips\lpc21xx.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\freeRTOS.h
+period.o: C:\Keil\ARM\RV31\INC\stddef.h
+period.o: C:\Keil\ARM\RV31\INC\stdint.h
+period.o: .\FreeRTOSConfig.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\projdefs.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\portable.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\deprecated_definitions.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\mpu_wrappers.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\task.h
+period.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\list.h

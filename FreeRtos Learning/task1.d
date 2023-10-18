@@ -1,0 +1,13 @@
+task1.o: task1.c
+task1.o: C:\Keil\ARM\INC\Philips\lpc21xx.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\freeRTOS.h
+task1.o: C:\Keil\ARM\RV31\INC\stddef.h
+task1.o: C:\Keil\ARM\RV31\INC\stdint.h
+task1.o: .\FreeRTOSConfig.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\projdefs.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\portable.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\deprecated_definitions.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\mpu_wrappers.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\task.h
+task1.o: C:\FreeRTOSv10.0.1\FreeRTOS\Source\include\list.h
