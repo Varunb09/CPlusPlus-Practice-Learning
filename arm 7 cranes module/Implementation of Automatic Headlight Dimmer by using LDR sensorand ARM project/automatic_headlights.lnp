@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "automatic headlights main.o" "lcd link.o" --strict --scatter "automatic_headlights.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\automatic_headlights.map" -o "automatic_headlights.axf"

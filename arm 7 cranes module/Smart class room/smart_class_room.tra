@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'smart_class_room.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"adc0 for temp sensor.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "adc0 for temp sensor.o" --strict --scatter "smart_class_room.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\smart_class_room.map" -o "smart_class_room.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'smart_class_room.axf'
+### ADS-LD Command File: 'smart_class_room.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'smart_class_room.lnp', Handle=0x00000CC0
+### Writing '.lnp' file
+### ADS-LD Command file 'smart_class_room.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

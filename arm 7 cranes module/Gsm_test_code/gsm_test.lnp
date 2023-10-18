@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "gsm.o" "gsm_main.o" "lcd.o" --strict --scatter "gsm_test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\gsm_test.map" -o "gsm_test.axf"

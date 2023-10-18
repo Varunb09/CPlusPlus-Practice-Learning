@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'gas sensor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"lcd link.o"'
+### List of Objects: adding '"gas sensor main.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "lcd link.o" "gas sensor main.o" --strict --scatter "gas sensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\gas sensor.map" -o "gas sensor.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'gas sensor.axf'
+### ADS-LD Command File: 'gas sensor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'gas sensor.lnp', Handle=0x00000D00
+### Writing '.lnp' file
+### ADS-LD Command file 'gas sensor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

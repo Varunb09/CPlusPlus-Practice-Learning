@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "4 bit mode lcd.o" --strict --scatter "exam.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\exam.map" -o "exam.axf"

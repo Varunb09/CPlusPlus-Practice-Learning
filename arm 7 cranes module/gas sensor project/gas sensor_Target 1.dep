@@ -1,0 +1,7 @@
+Dependencies for Project 'gas sensor', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\lcd link.c)(0x595C6EDE)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lcd link.o" --omf_browse "lcd link.crf" --depend "lcd link.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+F (.\gas sensor main.c)(0x595C90B0)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "gas sensor main.o" --omf_browse "gas sensor main.crf" --depend "gas sensor main.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (lcd link.h)(0x5959D909)

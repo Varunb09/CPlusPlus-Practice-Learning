@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "external_int_heartbeat_sens.o" "heartbeat_main.o" "lcd.o" "timer.o" "convert.o" --strict --scatter "heart_beat_sensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\heart_beat_sensor.map" -o "heart_beat_sensor.axf"

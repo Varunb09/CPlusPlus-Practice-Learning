@@ -1,0 +1,7 @@
+Dependencies for Project 'smart_class_room', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\adc0 for temp sensor.c)(0x5A9A3E22)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "adc0 for temp sensor.o" --omf_browse "adc0 for temp sensor.crf" --depend "adc0 for temp sensor.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (lcd link.h)(0x595760F5)
+F (.\lcd link.h)(0x595760F5)()
+F (.\SPI.c)(0x594BA1B0)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "spi.o" --omf_browse "spi.crf" --depend "spi.d")
