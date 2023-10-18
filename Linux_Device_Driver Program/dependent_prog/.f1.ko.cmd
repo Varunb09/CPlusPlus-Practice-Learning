@@ -1,0 +1,1 @@
+cmd_/home/varsity/Documents/varun_ldd/dependent_prog/f1.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-23-generic-pae/scripts/module-common.lds --build-id  -o /home/varsity/Documents/varun_ldd/dependent_prog/f1.ko /home/varsity/Documents/varun_ldd/dependent_prog/f1.o /home/varsity/Documents/varun_ldd/dependent_prog/f1.mod.o
