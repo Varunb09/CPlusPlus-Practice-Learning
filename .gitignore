@@ -1,0 +1,12 @@
+# Ignore all files
+*
+
+# Except C, C++, header, and hex files
+!**/*.c
+!**/*.cpp
+!**/*.h
+!**/*.hex
+!**/*.doc
+!**/*.docx
+!**/*.py
+!**/*.gitignore
