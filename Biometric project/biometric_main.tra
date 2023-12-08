@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'biometric_main.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"biometric_main_program.o"'
+### List of Objects: adding '"lcd command display2.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "biometric_main_program.o" "lcd command display2.o" --strict --scatter "biometric_main.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\biometric_main.map" -o "biometric_main.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'biometric_main.axf'
+### ADS-LD Command File: 'biometric_main.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'biometric_main.lnp', Handle=0x00000920
+### Writing '.lnp' file
+### ADS-LD Command file 'biometric_main.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

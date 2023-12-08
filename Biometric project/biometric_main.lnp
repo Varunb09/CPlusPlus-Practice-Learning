@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "biometric_main_program.o" "lcd command display2.o" --strict --scatter "biometric_main.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\biometric_main.map" -o "biometric_main.axf"
