@@ -1,0 +1,57 @@
+#include "mbed.h"
+#include "TSISensor.h"
+#include "MMA8451Q.h"
+#include "USBMouse.h"
+#define ADDRESS (0x1d<<1)
+
+USBMouse mouse;
+TSISensor tsi;
+MMA8451Q acc(PTE25,PTE24,ADDRESS);
+Serial pc(USBTX,USBRX);
+
+main()
+{
+    float i,x=0,y=0;
+    int a;
+    char ch;
+    pc.printf("Enter L for 5 Sensitivity\n\rEnter M for 10 Sensitivity\n\rEnter H for 20 Sensitivity\n\r");
+    while(1)
+    { 
+       if (pc.readable())
+        {
+            ch=pc.getc();
+            switch(ch)
+            {
+                case 'l':
+                a=5;
+                break;
+                case 'm':
+                a=10;
+                break;
+                case 'h':
+                a=20;
+                break;
+                default:
+                break;
+            }
+        }
+        x=-a*acc.getAccX();
+        y=-a*acc.getAccY();
+        mouse.move(y,x);
+        
+        i=tsi.readPercentage();
+        if((i<=1)and(i>0.45))
+        {
+            mouse.press(MOUSE_RIGHT);
+            mouse.release(MOUSE_RIGHT);
+            wait(0.001);
+        }
+        if((i>0)and(i<0.45))
+        {
+            mouse.press(MOUSE_LEFT);
+            mouse.release(MOUSE_LEFT);
+            wait(0.001);
+        }
+    continue;
+    }
+}
